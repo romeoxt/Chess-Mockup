@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Chess Coaching</title>
+  </head>
+  <body>
+    <header>
+      <h1>Chess Coaching</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam malesuada orci sed mauris congue, a fermentum purus scelerisque. Nam fringilla elit at dui efficitur feugiat. Proin dictum nibh vitae magna auctor, ac porta est tincidunt. Sed bibendum, lacus id tempor vulputate, nibh lacus congue justo, ac varius nisl nisi vel nulla. Nam vel velit vel quam pellentesque rhoncus id in orci.</p>
+      </section>
+      <section id="schedule">
+        <h2>Schedule</h2>
+        <table>
+          <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Location</th>
+            <th>Book</th>
+          </tr>
+          <tr>
+            <td>Monday, January 1</td>
+            <td>10:00 AM</td>
+            <td>Online</td>
+            <td><a href="#">Book</a></td>
+          </tr>
+          <tr>
+            <td>Tuesday, January 2</td>
+            <td>1:00 PM</td>
+            <td>Online</td>
+            <td><a href="#">Book</a></td>
+          </tr>
+          <tr>
+            <td>Wednesday, January 3</td>
+            <td>4:00 PM</td>
+            <td>In-person</td>
+            <td><a href="#">Book</a></td>
+          </tr>
+        </table>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2021 Chess Coaching</p>
+    </footer>
+  </body>
+</html>
